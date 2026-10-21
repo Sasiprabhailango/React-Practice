@@ -1,0 +1,44 @@
+.box {
+  background-color: whitesmoke;
+  width: 600px;
+  height: auto;
+  margin: 50px auto;
+}
+header {
+  background-color: rgb(69, 95, 118);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: large;
+  color: rgb(8, 8, 8);
+  height: 40px;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+
+
+}
+header h4,
+header p{
+    margin: 10px;
+}
+header p{
+    background-color: beige;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    border-radius: 50%;
+
+}
+
+.content {
+  margin-left: 20px;
+  padding: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+footer {
+  background-color: rgb(69, 95, 118);
+  text-align: center;
+  padding: 10px;
+  height: 40px;
+  font-size: large;
+  color: rgb(8, 8, 8);
+}

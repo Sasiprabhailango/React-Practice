@@ -1,0 +1,78 @@
+.box {
+  background-color: whitesmoke;
+  width: 600px;
+  height: auto;
+  margin: 50px auto;
+}
+header {
+  background-color: rgb(167, 230, 216);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: large;
+  color: rgb(8, 8, 8);
+  height: 40px;
+  text-align: center;
+
+
+}
+header h3{
+    margin: 10px;
+    padding: 10px;
+}
+
+
+.content{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  padding: 30px;
+  background-color: #f5f5f5;
+}
+.product-item{
+  width: 200px;
+  padding: 20px;
+  text-align: center;
+  background-color: wheat;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px  rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+.product-card:hover {
+  transform: translateY(-5px);
+}
+.product-icon {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+.product-item h3 {
+  margin: 10px 0;
+  color: #222;
+}
+
+.price {
+  font-size: 20px;
+  font-weight: bold;
+  color: #15803d;
+}
+
+.category {
+  color: #666;
+  font-size: 14px;
+}
+.cart-btn {
+  background-color:black;
+  color: white;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+footer {
+  background-color: rgb(142, 228, 226);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  height: 40px;
+  font-size: large;
+  color: rgb(8, 8, 8);
+}
